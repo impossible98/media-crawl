@@ -1,0 +1,9 @@
+# docs: https://hub.docker.com/r/impossible98/media-crawl
+version: '3'
+
+services:
+  mediacrawl:
+    image: impossible98/media-crawl 
+    ports:
+      - '7480:7480'
+    restart: unless-stopped
